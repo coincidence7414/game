@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="TW^OuVdw6{mq6t?m$3*A" x="140" y="56"><statement name="HANDLER"><block type="controls_if" id="/[7N1-#XywWfxJ2Mact^"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_get_button2" id=";jaW4J0cs@S2zz7@fMTL"><field name="NAME">Button.A</field></block></value><statement name="DO0"><block type="device_show_leds" id="O7RZq+b$y{*y[kQY|58]"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="playMelody" id="jH^rmeI]$nmyEW~_hnVk"><value name="melody"><shadow type="melody_editor" id="sw,n^6,dY|tcnD=qfchT"><field name="melody">"C D E F G A B C5 "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="fMX]kE5:OLcqrXC__c8y"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="+4|m/5xq[m!whd1;?6CG"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field><next><block type="playMelody" id=",,YC3qJbF9-!%Yyee$eT"><value name="melody"><shadow type="melody_editor" id="VqGuRvUWFj)AEX;uwqg*"><field name="melody">"C5 B A G F E D C "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="(6uN0;?o5`CD|H3WdW46"><mutation min="40" max="500" label="Tempo" precision="0"></mutation><field name="SLIDER">120</field></shadow></value></block></next></block></statement></block></statement></block></xml>
